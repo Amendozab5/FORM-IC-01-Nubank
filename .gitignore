@@ -1,0 +1,28 @@
+# Archivos temporales de la investigación
+_tmp/
+_work/
+*.tmp
+
+# PDFs de los artículos: se conservan en local, no se redistribuyen
+fuentes/pdf/
+
+# Artefactos de LaTeX
+informe/*.aux
+informe/*.bbl
+informe/*.bcf
+informe/*.blg
+informe/*.log
+informe/*.out
+informe/*.run.xml
+informe/*.toc
+informe/*.lof
+informe/*.lot
+informe/*.synctex.gz
+informe/*.fls
+informe/*.fdb_latexmk
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
