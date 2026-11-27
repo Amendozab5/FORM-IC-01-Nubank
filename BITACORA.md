@@ -45,13 +45,31 @@ Registro de lo que se hizo, en orden. Las fechas son las del trabajo real.
 - Compilar el PDF.
 - Publicar el repositorio.
 
-## 2026-11-26 — Pendiente
+## 2026-11-26 — Análisis de una página, captura y PDF
 
-- Redacción del análisis de una página en LaTeX.
-- Carátula y referencias.
-- Captura anotada de la fuente principal.
+**Trabajo hecho:**
+
+- Se redactó `informe/main.tex` con la carátula, el análisis de una página, las referencias y tres anexos.
+- El análisis tiene cinco apartados: descripción del caso, por qué se eligió EDA y qué había antes, beneficios, desafíos y soluciones, y aplicación al PFC.
+- Se preparó la captura anotada de la fuente principal (`capturas/01-fuente-nubank-anotada.png`). Se imprimió la página de *Building Nubank* con Edge, se resaltaron tres fragmentos con PyMuPDF y se agregó una leyenda en español.
+- Se agregó el Anexo B con el sistema de primera mano (la aplicación del banco) y el Anexo C con la declaración de uso de IA.
+- Se compiló con pdflatex → biber → pdflatex ×2. El PDF tiene 5 páginas: carátula, análisis (1 página), referencias, Anexo A y una página con los anexos B y C.
+- Se ajustó el texto para que el análisis no se derramara a una segunda página: se recortaron frases repetidas, se redujeron márgenes y se eliminó el subtítulo del cuerpo.
+- Se corrigieron las entradas de Nubank en `referencias.bib` para que los nombres propios no se impriman en minúscula y para quitar notas redundantes.
+- Se actualizó el README con el estado del documento.
+
+**Incidencias:**
+
+- Edge headless no pudo arrancar dentro del sandbox; se ejecutó con acceso completo para imprimir la página.
+- MiKTeX necesitó acceso fuera del sandbox para leer su configuración y escribir el PDF.
+- La primera compilación dejó tres líneas en una página extra; se corrigió con los ajustes de texto y márgenes.
+
+**Pendiente:**
+
+- PDF de una página para el SGA.
+- Tercer commit y cierre del repositorio.
 
 ## 2026-11-27 — Pendiente
 
-- Compilación, revisión de una página, PDF del SGA.
-- README definitivo y publicación.
+- PDF del SGA con los datos y la URL del repositorio.
+- Revisión final del README y cierre.

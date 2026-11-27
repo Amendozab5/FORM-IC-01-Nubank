@@ -18,7 +18,7 @@ El análisis se apoya en diez artículos científicos de acceso abierto, publica
 
 ## Compilación
 
-> **Nota de esta etapa:** este primer commit contiene la investigación, las fuentes y la bibliografía. El archivo `informe/main.tex` se agrega en el segundo commit; las instrucciones de abajo quedan listas para cuando exista.
+> **Documento:** el repositorio ya incluye `informe/main.tex` y `informe/main.pdf`. El PDF tiene cinco páginas: carátula, análisis de una página, referencias, Anexo A (captura) y una página con los anexos B y C (sistema de primera mano y declaración de IA).
 
 - **Compilador:** pdfLaTeX (MiKTeX 26.5 o TeX Live 2024 actualizado) con Biber.
 - **Archivo principal:** `informe/main.tex`.
@@ -67,13 +67,14 @@ pdflatex main.tex
 - [x] Fuentes oficiales localizadas, con autor, fecha y cifras.
 - [x] Corpus de diez artículos descargado y verificado.
 - [x] Metadatos, DOI, licencias y hashes registrados.
-- [ ] Captura anotada de la fuente principal.
-- [ ] Evidencia de un sistema de primera mano.
-- [ ] Redacción del análisis de una página en LaTeX.
-- [ ] Compilación y revisión del PDF.
+- [x] Captura anotada de la fuente principal.
+- [x] Evidencia de un sistema de primera mano.
+- [x] Redacción del análisis de una página en LaTeX.
+- [x] Compilación y revisión del PDF.
 - [ ] PDF de una página para el SGA.
 - [x] Repositorio publicado y primer commit subido.
-- [ ] Commits 2 y 3 del trabajo.
+- [x] Segundo commit: documento, captura y PDF compilado.
+- [ ] Tercer commit: PDF del SGA y cierre.
 
 ## Declaración de uso de inteligencia artificial
 
